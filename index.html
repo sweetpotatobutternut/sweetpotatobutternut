@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweet Potato Butternut</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #fffaf4;
+      color: #4e342e;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #d2691e, #ff8c42);
+      text-align: center;
+      padding: 60px 20px 40px;
+      position: relative;
+      clip-path: ellipse(120% 100% at 50% 0%);
+    }
+
+    header img {
+      max-height: 200px;
+      width: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      color: #fffaf0;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    header p {
+      color: #ffe7cc;
+      font-size: 1.2rem;
+    }
+
+    .content-bg {
+      background: linear-gradient(to bottom, #fff3e0, #ffe8cc);
+      padding: 60px 20px;
+    }
+
+    .section-container {
+      background: white;
+      border-radius: 25px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-title {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: #a0522d;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .card {
+      background-color: #fffdf8;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+
+    .team-card {
+      border: 1px solid #f3e7d8;
+    }
+
+    .contact a {
+      color: #6b3e26;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact i {
+      color: #d2691e;
+      margin-right: 10px;
+    }
+
+    .contact p {
+      font-size: 1.05rem;
+    }
+
+    footer {
+      background-color: #a0522d;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .card i {
+      min-width: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      header img {
+        max-height: 140px;
+      }
+
+      .section-title {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="butternutlogo.jpg" alt="Sweet Potato Butternut Logo" />
+  <h1>Sweet Potato Butternut</h1>
+  <p>The Unspoken Delicacy</p>
+</header>
+
+<!-- Main Content Section -->
+<div class="content-bg">
+  <div class="container section-container">
+
+    <!-- About the Product -->
+<div class="container my-5">
+  <section>
+    <h2 class="section-title text-center mb-5" style="color:#a0522d; font-weight:700; font-size:2.5rem;">About the Product</h2>
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm border-0 rounded-4" style="background:#fff8f0; transition: transform 0.3s ease;">
+          <div class="d-flex align-items-start">
+            <i class="fas fa-seedling fa-3x me-4 text-success" style="flex-shrink:0;"></i>
+            <div>
+              <h5 class="fw-bold mb-3" style="color:#4a2c0a;">Locally Sourced Goodness</h5>
+              <p style="color:#5c3d16; font-size:1.1rem; line-height:1.5;">
+                Sweet Potato Butternut is a proudly local, health-conscious food made with love and community spirit. Crafted from premium sweet potatoes, it's rich in flavor and nutrition, free from artificial additives, and designed for today’s busy, health-aware consumer.
+              </p>
+            </div>
+          </div>
+          <div class="mt-3" style="height:4px; width:60px; background:#4caf50; border-radius:2px;"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm border-0 rounded-4" style="background:#fff8f0; transition: transform 0.3s ease;">
+          <div class="d-flex align-items-start">
+            <i class="fas fa-utensils fa-3x me-4 text-warning" style="flex-shrink:0;"></i>
+            <div>
+              <h5 class="fw-bold mb-3" style="color:#7a5a10;">Versatile & Eco-Friendly</h5>
+              <p style="color:#6b4c1a; font-size:1.1rem; line-height:1.5;">
+                Enjoy it mashed, roasted, or blended into a smoothie. It's packed with fiber, antioxidants, and vitamins. Packaged in biodegradable containers, Sweet Potato Butternut supports your health, local farmers, and the planet—all in one bite.
+              </p>
+            </div>
+          </div>
+          <div class="mt-3" style="height:4px; width:60px; background:#ffb300; border-radius:2px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="mt-5">
+    <h2 class="section-title text-center mb-5" style="color:#a0522d; font-weight:700; font-size:2.5rem;">Mission & Vision</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-4 h-100 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <i class="fas fa-bullseye fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold mb-3" style="color:#3b3f5c;">Our Mission</h5>
+          <p style="color:#534f6d; font-size:1.1rem; line-height:1.5;">
+            To provide nutritious and affordable Sweet Potato Butternut products, while supporting local farmers and promoting wellness in every community.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 h-100 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <i class="fas fa-eye fa-3x text-danger mb-3"></i>
+          <h5 class="fw-bold mb-3" style="color:#7a2e31;">Our Vision</h5>
+          <p style="color:#7b4f54; font-size:1.1rem; line-height:1.5;">
+            To be the leading provider of healthy sweet potato-based snacks in Partido and beyond, known for sustainability, taste, and impact.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="mt-5">
+    <h2 class="section-title text-center mb-5" style="color:#a0522d; font-weight:700; font-size:2.5rem;">Meet the Team</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Berfel Nico P. Siso</h5>
+          <p class="text-muted mb-0">General Manager</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Lea Pomar</h5>
+          <p class="text-muted mb-0">Finance Officer</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Alvin Felices</h5>
+          <p class="text-muted mb-0">Marketing Officer</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Marco Louigie B.</h5>
+          <p class="text-muted mb-0">Operations Officer</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Julie Pamada</h5>
+          <p class="text-muted mb-0">Team Member</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card p-4 text-center shadow-sm border-0 rounded-4" style="background:#fff8f0;">
+          <h5 class="fw-bold" style="color:#5d3a00;">Jason Patron</h5>
+          <p class="text-muted mb-0">Team Member</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <!-- Contact -->
+    <section class="contact mt-5">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="text-center"><i class="fas fa-envelope"></i><a href="mailto:sweetpotatobutternut@gmail.com"> sweetpotatobutternut@gmail.com</a></p>
+      <p class="text-center"><i class="fab fa-facebook"></i><a href="https://facebook.com/sweetpotatobutternut" target="_blank"> facebook.com/sweetpotatobutternut</a></p>
+      <p class="text-center"><i class="fab fa-instagram"></i><a href="https://instagram.com/sweetpotatobutternut" target="_blank"> @sweetpotatobutternut</a></p>
+    </section>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p><i class="fas fa-leaf me-2"></i>&copy; 2025 Sweet Potato Butternut. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
